@@ -113,6 +113,7 @@ func (this *MysqldConfig) Check() error {
 
 	this.FuncName = funcName
 
+	// TODO offset
 	return nil
 }
 
