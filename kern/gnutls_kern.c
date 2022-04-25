@@ -1,6 +1,13 @@
 #include "core_type.h"
 #include "common.h"
 
+
+/***********************************************************
+ * https://n-2.org/
+ * Network Security Services (NSS)
+ * https://firefox-source-docs.mozilla.org/security/nss/index.html
+ ***********************************************************/
+
 enum ssl_data_event_type { kSSLRead, kSSLWrite };
 
 struct ssl_data_event_t {
